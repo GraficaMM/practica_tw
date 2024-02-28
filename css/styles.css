@@ -1,0 +1,17 @@
+input::-moz-placeholder {
+    color: rgb(20, 231, 52);
+}
+
+input::placeholder {
+    color: rgb(20, 231, 52);
+}
+
+.image {
+    background-image: url(img1.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    .image {
+        background-image: url(image2.png);
+    }
+
+}

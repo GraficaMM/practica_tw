@@ -1,0 +1,16 @@
+{
+  "name": "practica_tw",
+  "version": "1.0.0",
+  "description": "proyecto de clase",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles.css --output css/styles.css",
+    "watch": "postcss src/styles.css --output css/styles.css --watch"
+    
+
+
+  },
+  "keywords": [],
+  "author": "mercedes",
+  "license": "ISC"
+}

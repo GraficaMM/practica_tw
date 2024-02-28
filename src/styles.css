@@ -1,0 +1,13 @@
+input::placeholder {
+    color: rgb(20, 231, 52);
+}
+
+.image {
+    background-image: url(img1.jpg);
+}
+@media (min-resolution: 2dppx) {
+    .image {
+        background-image: url(image2.png);
+    }
+
+}
